@@ -31,7 +31,6 @@ public class Main {
                     max_numf = i+1;
                 }
             }
-            //System.out.println (max_numf);
             String fOutName = "output.txt";
             FileWriter fw = new FileWriter(new File(fOutName));
             fw.write(Integer.toString(max_numf));
